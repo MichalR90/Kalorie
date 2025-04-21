@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script type="module" src="src/eating-time.js"></script>
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="description">
+            <div class="buttons-back">
+                <button class="button-back" id="eatingTime_button_back_id">&larr;</button>
+            </div>
+            <div class="description-content">
+                <spans class="description-content">Układy i godziny posiłków</spans>
+            </div>
+        </div>
+        <div class="body-design-settings">
+            <div class="body-content-meals-timing">
+                <div class="body-content-inputs">
+                    <div class="eating-checkbox-chose">
+                        <div class="label-design-timming">
+                            <label class="label-design-time"> &nabla;</label>
+                        </div>
+                        <input class="eating-checkbox-input" type="checkbox" id="brekfast_checkbox_id">
+                        <input class="eating-checkbox-input" type="checkbox" id="second_brekfast_checkbox_id">
+                        <input class="eating-checkbox-input" type="checkbox" id="lunch_checkbox_id">
+                        <input class="eating-checkbox-input" type="checkbox" id="seond_lunch_checkbox_id">
+                        <input class="eating-checkbox-input" type="checkbox" id="snack_checkbox_id">
+                        <input class="eating-checkbox-input" type="checkbox" id="dinner_checkbox_id">
+                    </div>
+                    <div class="eating-name-chose">
+                        <div class="label-design-timming">
+                            <label class="label-design-name">Nazwa posiłku</label>
+
+                        </div>
+                        <input class="inputs-eating-name" value="Śniadanie" id="brekfast_name_id" readonly>
+                        <input class="inputs-eating-name" value=" II Śniadanie" id="second_brekfast_name_id" readonly>
+                        <input class="inputs-eating-name" value="Lunch" id="lunch_name_id" readonly>
+                        <input class="inputs-eating-name" value="Obiad" id="second_lunch_name_id" readonly>
+                        <input class="inputs-eating-name" value="Przekąska" id="snack_name_id" readonly>
+                        <input class="inputs-eating-name" value="Kolacja" id="diner_name_id" readonly>
+                    </div>
+                    <div class="eating-time-chose">
+                        <div class="label-design-timming">
+                            <label class="label-design-time">Godziny</label>
+                        </div>
+                        <input class="inputs-eating-time" type="time" id="brekfast_time_id">
+                        <input class="inputs-eating-time" type="time" id="second_brekfast_time_id">
+                        <input class="inputs-eating-time" type="time" id="lunch_time_id">
+                        <input class="inputs-eating-time" type="time" id="second_lunch_time_id">
+                        <input class="inputs-eating-time" type="time" id="snack_time_id">
+                        <input class="inputs-eating-time" type="time" id="diner_time_id">
+                    </div>
+                </div>
+                <div class="body-content-buttons">
+                    <div class="profil-buttons-action">
+                        <button class="profil-button-action" id="eatingTime_save_id">Zapisz</button>
+                        <button class="profil-button-action" id="eatingTime_reject_id">Anuluj</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>

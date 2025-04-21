@@ -1,0 +1,455 @@
+{
+  "products": [
+    {
+      "name": "kurczak filet",
+      "kcl": 98,
+      "protein": 21.5,
+      "fat": 1.3,
+      "carbohydrates": 0,
+      "sugar": 0,
+      "fiber": 0
+    },
+    {
+      "name": "kurczak udko",
+      "kcl": 159,
+      "protein": 16.8,
+      "fat": 10.2,
+      "carbohydrates": 0,
+      "sugar": 0,
+      "fiber": 0
+    },
+    {
+      "name": "kurczak skrzydełko",
+      "kcl": 186,
+      "protein": 19.2,
+      "fat": 12.2,
+      "carbohydrates": 0,
+      "sugar": 0,
+      "fiber": 0
+    },
+    {
+      "name": "indyk",
+      "kcl": 84,
+      "protein": 19.2,
+      "fat": 0.7,
+      "carbohydrates": 0,
+      "sugar": 0,
+      "fiber": 0
+    },
+    {
+      "name": "boczek",
+      "kcl": 477,
+      "protein": 12.7,
+      "fat": 47.3,
+      "carbohydrates": 0,
+      "sugar": 0,
+      "fiber": 0
+    },
+    {
+      "name": "smalec",
+      "kcl": 880,
+      "protein": 12.7,
+      "fat": 99.5,
+      "carbohydrates": 0,
+      "sugar": 0,
+      "fiber": 0
+    },
+    {
+      "name": "słonina",
+      "kcl": 797,
+      "protein": 2.4,
+      "fat": 27.6,
+      "carbohydrates": 0,
+      "sugar": 0,
+      "fiber": 0
+    },
+    {
+      "name": "golonka",
+      "kcl": 220,
+      "protein": 19.0,
+      "fat": 16.0,
+      "carbohydrates": 0,
+      "sugar": 0,
+      "fiber": 0
+    },
+    {
+      "name": "polędwica wieprzowa",
+      "kcl": 109,
+      "protein": 21.5,
+      "fat": 2.2,
+      "carbohydrates": 0,
+      "sugar": 0,
+      "fiber": 0
+    },
+    {
+      "name": "schab",
+      "kcl": 268,
+      "protein": 18.2,
+      "fat": 21.9,
+      "carbohydrates": 0,
+      "sugar": 0,
+      "fiber": 0
+    },
+    {
+      "name": "wieprzowina szynka",
+      "kcl": 253,
+      "protein": 17.1,
+      "fat": 20.3,
+      "carbohydrates": 0.9,
+      "sugar": 0.9,
+      "fiber": 0
+    },
+    {
+      "name": "wołowina polędwica",
+      "kcl": 112,
+      "protein": 20.1,
+      "fat": 3.5,
+      "carbohydrates": 0,
+      "sugar": 0,
+      "fiber": 0
+    },
+    {
+      "name": "tatar wołowy",
+      "kcl": 104,
+      "protein": 17.0,
+      "fat": 3.3,
+      "carbohydrates": 1.0,
+      "sugar": 0,
+      "fiber": 0
+    },
+    {
+      "name": "cielęcina",
+      "kcl": 108,
+      "protein": 19.9,
+      "fat": 3.1,
+      "carbohydrates": 0,
+      "sugar": 0,
+      "fiber": 0
+    },
+    {
+      "name": "parówka cielęca",
+      "kcl": 270,
+      "protein": 11,
+      "fat": 25,
+      "carbohydrates": 0,
+      "sugar": 0,
+      "fiber": 0
+    },
+    {
+      "name": "łosoś",
+      "kcl": 201,
+      "protein": 19.9,
+      "fat": 13.6,
+      "carbohydrates": 0,
+      "sugar": 0,
+      "fiber": 0
+    },
+    {
+      "name": "sandacz",
+      "kcl": 91,
+      "protein": 19.4,
+      "fat": 0.9,
+      "carbohydrates": 0,
+      "sugar": 0,
+      "fiber": 0
+    },
+
+    {
+      "name": "okoń",
+      "kcl": 93,
+      "protein": 19.1,
+      "fat": 1.8,
+      "carbohydrates": 0,
+      "sugar": 0,
+      "fiber": 0
+    },
+    {
+      "name": "dorsz",
+      "kcl": 78,
+      "protein": 17.7,
+      "fat": 0.1,
+      "carbohydrates": 0,
+      "sugar": 0,
+      "fiber": 0
+    },
+    {
+      "name": "panga",
+      "kcl": 53,
+      "protein": 11.9,
+      "fat": 0.6,
+      "carbohydrates": 0,
+      "sugar": 0,
+      "fiber": 0
+    },
+    {
+      "name": "halibut",
+      "kcl": 186,
+      "protein": 14.0,
+      "fat": 14.0,
+      "carbohydrates": 0,
+      "sugar": 0,
+      "fiber": 0
+    },
+    {
+      "name": "mintaj",
+      "kcl": 73,
+      "protein": 16.6,
+      "fat": 0.6,
+      "carbohydrates": 0,
+      "sugar": 0,
+      "fiber": 0
+    },
+    {
+      "name": "makrela",
+      "kcl": 181,
+      "protein": 18.7,
+      "fat": 11.9,
+      "carbohydrates": 0,
+      "sugar": 0,
+      "fiber": 0
+    },
+    {
+      "name": "tuńczyk",
+      "kcl": 108,
+      "protein": 23.0,
+      "fat": 0.9,
+      "carbohydrates": 0,
+      "sugar": 0,
+      "fiber": 0
+    },
+    {
+      "name": "pstrąg",
+      "kcl": 160,
+      "protein": 18.6,
+      "fat": 9.6,
+      "carbohydrates": 0,
+      "sugar": 0,
+      "fiber": 0
+    },
+    {
+      "name": "śledź",
+      "kcl": 217,
+      "protein": 19.8,
+      "fat": 15.4,
+      "carbohydrates": 0,
+      "sugar": 0,
+      "fiber": 0
+    },
+    {
+      "name": "karp",
+      "kcl": 110,
+      "protein": 18.0,
+      "fat": 4.2,
+      "carbohydrates": 0,
+      "sugar": 0,
+      "fiber": 0
+    },
+    {
+      "name": "pstrąg",
+      "kcl": 160,
+      "protein": 18.6,
+      "fat": 9.6,
+      "carbohydrates": 0,
+      "sugar": 0,
+      "fiber": 0
+    },
+    {
+      "name": "ser gouda",
+      "kcl": 316,
+      "protein": 27.3,
+      "fat": 22.9,
+      "carbohydrates": 0.1,
+      "sugar": 0.1,
+      "fiber": 0
+    },
+    {
+      "name": "ser mozarella",
+      "kcl": 254,
+      "protein": 24.0,
+      "fat": 16.0,
+      "carbohydrates": 3.0,
+      "sugar": 0,
+      "fiber": 0
+    },
+    {
+      "name": "ser parmezan",
+      "kcl": 454,
+      "protein": 40.7,
+      "fat": 32.0,
+      "carbohydrates": 0.1,
+      "sugar": 0.1,
+      "fiber": 0
+    },
+    {
+      "name": "ser camembert",
+      "kcl": 293,
+      "protein": 21.0,
+      "fat": 23.0,
+      "carbohydrates": 0.2,
+      "sugar": 0,
+      "fiber": 0
+    },
+    {
+      "name": "ser królewski",
+      "kcl": 352,
+      "protein": 26.0,
+      "fat": 27.0,
+      "carbohydrates": 1.2,
+      "sugar": 0,
+      "fiber": 0
+    },
+    {
+      "name": "ser edamski",
+      "kcl": 348,
+      "protein": 24.0,
+      "fat": 28.0,
+      "carbohydrates": 0.1,
+      "sugar": 0,
+      "fiber": 0
+    },
+    {
+      "name": "ser kozi",
+      "kcl": 168,
+      "protein": 8.7,
+      "fat": 14.0,
+      "carbohydrates": 4.0,
+      "sugar": 0,
+      "fiber": 0
+    },
+    {
+      "name": "twaróg chudy",
+      "kcl": 68,
+      "protein": 12.2,
+      "fat": 0.3,
+      "carbohydrates": 3.9,
+      "sugar": 0,
+      "fiber": 0
+    },
+    {
+      "name": "twaróg półtłusty",
+      "kcl": 132,
+      "protein": 18.3,
+      "fat": 4.7,
+      "carbohydrates": 3.7,
+      "sugar": 0,
+      "fiber": 0
+    },
+    {
+      "name": "twaróg półtłusty",
+      "kcl": 148,
+      "protein": 15.5,
+      "fat": 8.0,
+      "carbohydrates": 3.5,
+      "sugar": 0,
+      "fiber": 0
+    },
+    {
+      "name": "masło",
+      "kcl": 751,
+      "protein": 0.6,
+      "fat": 83.0,
+      "carbohydrates": 0,
+      "sugar": 0,
+      "fiber": 0
+    },
+    {
+      "name": "masło klarowane",
+      "kcl": 883,
+      "protein": 0,
+      "fat": 99.8,
+      "carbohydrates": 0,
+      "sugar": 0,
+      "fiber": 0
+    },
+    {
+      "name": "margaryna",
+      "kcl": 540,
+      "protein": 0,
+      "fat": 60.0,
+      "carbohydrates": 0,
+      "sugar": 0,
+      "fiber": 0
+    },
+    {
+      "name": "olej rzepakowy",
+      "kcl": 884,
+      "protein": 0,
+      "fat": 100.0,
+      "carbohydrates": 0,
+      "sugar": 0,
+      "fiber": 0
+    },
+    {
+      "name": "oliwa z oliwek",
+      "kcl": 882,
+      "protein": 0,
+      "fat": 99.6,
+      "carbohydrates": 0.2,
+      "sugar": 0,
+      "fiber": 0
+    },
+    {
+      "name": "bułka kajzerka",
+      "kcl": 297,
+      "protein": 9.2,
+      "fat": 3.6,
+      "carbohydrates": 56.7,
+      "sugar": 0,
+      "fiber": 1.9
+    },
+    {
+      "name": "bułka ciabatta",
+      "kcl": 256,
+      "protein": 9.1,
+      "fat": 1.0,
+      "carbohydrates": 51.6,
+      "sugar": 0,
+      "fiber": 1.4
+    },
+    {
+      "name": "bułka maślana",
+      "kcl": 328,
+      "protein": 9.13,
+      "fat": 5.9,
+      "carbohydrates": 59.2,
+      "sugar": 0,
+      "fiber": 1.8
+    },
+    {
+      "name": "bułka pszenna",
+      "kcl": 273,
+      "protein": 8.9,
+      "fat": 1.5,
+      "carbohydrates": 55.9,
+      "sugar": 0,
+      "fiber": 1.8
+    },
+    {
+      "name": "bułka z ziarnami",
+      "kcl": 269,
+      "protein": 9.4,
+      "fat": 5.1,
+      "carbohydrates": 46.5,
+      "sugar": 0,
+      "fiber": 3.4
+    },
+    {
+      "name": "bułka grahamka",
+      "kcl": 262,
+      "protein": 9.6,
+      "fat": 1.7,
+      "carbohydrates": 49.4,
+      "sugar": 0,
+      "fiber": 6.7
+    },
+    {
+      "name": "bułka tarta",
+      "kcl": 354,
+      "protein": 10.6,
+      "fat": 1.9,
+      "carbohydrates": 71.4,
+      "sugar": 0,
+      "fiber": 6.1
+    }
+  ]
+}

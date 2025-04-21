@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script type="module" src="src/destination.js"></script>
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="description">
+            <div class="buttons-back">
+                <button class="button-back" id="destination_button_back_id">&larr;</button>
+            </div>
+            <div class="description-content">
+                <spans class="description-content">Cele</spans>
+            </div>
+        </div>
+
+        <div class="body-design-settings">
+            <div class="body-content">
+                <div class="message-alert">
+                    <p></p>
+                    <span class="destination-display-message" id="destination_message_alert_id"></span>
+                </div>
+                <div class="profil-parameters">
+                    <div class="label-design">
+                        <label class="labels">Waga aktualna</label>
+                        <label class="labels">Waga docelowa</label>
+                        <label class="labels">W ile dni do celu</label>
+                    </div>
+
+                    <div class="input-design">
+                        <input type="number" class="inputs" id="input_currentWeight_id">
+                        <input type="number" class="inputs" id="input_destinationWeight_id">
+                        <input type="number" class="inputs" id="input_destinationDays_id">
+                    </div>
+                    <div class="label-design">
+                        <label class="labels">kg</label>
+                        <label class="labels">kg</label>
+                        <label class="labels">dni</label>
+                    </div>
+                </div>
+                <div class="type-of-activity">
+                    <div class="label-design">
+                        <label class="labels">Brak aktywności</label>
+                        <label class="labels">Lekka aktywność</label>
+                        <label class="labels">Umiarkowana aktywność</label>
+                        <label class="labels">Duża aktywność</label>
+                        <label class="labels">Bardzo duża Aktywność</label>
+                    </div>
+                    <div class="activity-checkbox-chose">
+                        <input class="activity-checkbox-input" type="checkbox" id="no_activity_id">
+                        <input class="activity-checkbox-input" type="checkbox" id="low_activity_id">
+                        <input class="activity-checkbox-input" type="checkbox" id="medium_activity_id">
+                        <input class="activity-checkbox-input" type="checkbox" id="big_activity_id">
+                        <input class="activity-checkbox-input" type="checkbox" id="very_big_id">
+                    </div>
+                </div>
+
+                <div class="profil-buttons-action">
+                    <button class="profil-button-action" id="destination_save_id">Zapisz</button>
+                    <button class="profil-button-action" id="destination_reject_id">Anuluj</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
