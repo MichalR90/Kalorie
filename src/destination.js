@@ -118,13 +118,13 @@ function calculateParameters() {
 
             if (genderStatus === 'Mężczyzna') {
                 const tdee = bmrForMen * multiplier;
-                const limit = (tdee - differentWeight).toFixed(1);
+                const limit = (tdee - differentWeight).toFixed(0);
                 localStorage.setItem('daylyCaloriesLimitMen', limit);
 
                 storeMacros(limit);
             } else if (genderStatus === 'Kobieta') {
                 const tdee = bmrForWomen * multiplier;
-                const limit = (tdee - differentWeight).toFixed(1);
+                const limit = (tdee - differentWeight).toFixed(0);
                 localStorage.setItem('daylyCaloriesLimitWomen', limit);
 
                 storeMacros(limit);
@@ -135,7 +135,7 @@ function calculateParameters() {
 
 function storeMacros(limit) {
     const cal = parseFloat(limit);
-    localStorage.setItem('dailyProtein', ((cal * 0.25) / 4).toFixed(1));
-    localStorage.setItem('dailyFat', ((cal * 0.25) / 9).toFixed(1));
-    localStorage.setItem('dailyCarbs', ((cal * 0.5) / 4).toFixed(1));
+    localStorage.setItem('dailyProtein', ((cal * 0.25) / 4).toFixed(0));
+    localStorage.setItem('dailyFat', ((cal * 0.25) / 9).toFixed(0));
+    localStorage.setItem('dailyCarbs', ((cal * 0.5) / 4).toFixed(0));
 }

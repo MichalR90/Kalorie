@@ -164,10 +164,10 @@ function sumParametersArray() {
     let myFat = JSON.parse(localStorage.getItem('myFatArray') || '[]');
     let myCarbohydrates = JSON.parse(localStorage.getItem('myCarbohydratesArray') || '[]');
 
-    let sumKcal = myKcal.reduce((acc, val) => acc + val, 0).toFixed(1);
-    let sumProteins = myProteins.reduce((acc, val) => acc + val, 0).toFixed(1);
-    let sumFat = myFat.reduce((acc, val) => acc + val, 0).toFixed(1);
-    let sumCarbohydrates = myCarbohydrates.reduce((acc, val) => acc + val, 0).toFixed(1);
+    let sumKcal = myKcal.reduce((acc, val) => acc + val, 0).toFixed(0);
+    let sumProteins = myProteins.reduce((acc, val) => acc + val, 0).toFixed(0);
+    let sumFat = myFat.reduce((acc, val) => acc + val, 0).toFixed(0);
+    let sumCarbohydrates = myCarbohydrates.reduce((acc, val) => acc + val, 0).toFixed(0);
 
     localStorage.setItem('myKcal', (sumKcal));
     localStorage.setItem('myProteins', (sumProteins));
