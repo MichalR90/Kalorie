@@ -40,7 +40,7 @@ function checkCorrectInputs() {
         showError("Zaznacz płeć!");
     } else {
         saveProfileToLocalStorage(age, height);
-        window.location.href = "profilSaved.html";
+        window.location.href = "destination.html";
     }
 }
 
