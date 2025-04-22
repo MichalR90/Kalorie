@@ -12,7 +12,7 @@ let myArrayNew = [];
 const genderStatus = localStorage.getItem('genderStatus');
 const mealOrder = {
     'brekfastName': "sniadanie.html",
-    'secondBrekfastName': "IIsniadanie.html",
+    'secondBrekfastName': "drugie_sniadanie.html",
     'lunchName': "lunch.html",
     'secondLunchName': "obiad.html",
     'snackName': "przekaska.html",
