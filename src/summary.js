@@ -36,10 +36,10 @@ function getAllSummaryFromLocalstore() {
     const destinationWeight = localStorage.getItem('destinationWeight') || "0";
 
     summaryGender.innerHTML = `<span class="span-set-parameters">${genderStatus}</span>`;
-    summaryAge.innerHTML = `<span class="span-set-parameters">${age}</span>`;
-    summaryHeight.innerHTML = `<span class="span-set-parameters">${height}</span>`;
-    summaryCurrentWeight.innerHTML = `<span class="span-set-parameters">${currentWeight}</span>`;
-    summaryDestinationWeight.innerHTML = `<span class="span-set-parameters">${destinationWeight}</span>`;
+    summaryAge.innerHTML = `<span class="span-set-parameters">${age} lat </span>`;
+    summaryHeight.innerHTML = `<span class="span-set-parameters">${height} cm</span>`;
+    summaryCurrentWeight.innerHTML = `<span class="span-set-parameters">${currentWeight} kg</span>`;
+    summaryDestinationWeight.innerHTML = `<span class="span-set-parameters">${destinationWeight} kg</span>`;
 
     summaryProtein.innerHTML = formatValue(setProteins, currentProteins);
     summaryFat.innerHTML = formatValue(setFat, currentFat);
