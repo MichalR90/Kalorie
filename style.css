@@ -8,7 +8,7 @@
     --body-font-weight: 500;
     --body-font-size: 22px;
     --body-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    --body-min-width: 600px;
+    --body-min-width: 340px;
 }
 
 body {
@@ -193,7 +193,7 @@ body {
     justify-content: center;
     text-align: center;
     gap: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .form-check-input {
@@ -846,7 +846,6 @@ body {
 
 .recipe-labels a {
     text-decoration: none;
-
 }
 
 .settings-reset-profil {
@@ -864,8 +863,12 @@ body {
     background-color: var(--color-body)
 }
 
-
 .mb-0 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(79, 77, 77)
+}
+
+.labels-destination {
+    width: 70%;
+    margin-bottom: 10px;
 }
