@@ -75,7 +75,7 @@ function checkCorrectInputs() {
         if (menLimit < 1 && womenLimit < 1) {
             showAlert("Podaj poprawną liczbę dni lub wagę ponieważ limit kalorii jest ujemny !");
         } else {
-            redirectLocation("consuption.html");
+            redirectLocation("eating-time.html");
         }
     }
 }

@@ -2007,6 +2007,33 @@
       "carbohydrates": 50.0,
       "sugar": 28.0,
       "fiber": 2.0
+    },
+    {
+      "name": "Chleb pszenny",
+      "kcl": 265.0,
+      "protein": 9.0,
+      "fat": 3.2,
+      "carbohydrates": 49.0,
+      "sugar": 5.0,
+      "fiber": 2.7
+    },
+    {
+      "name": "Chleb żytni",
+      "kcl": 259.0,
+      "protein": 8.5,
+      "fat": 3.3,
+      "carbohydrates": 48.3,
+      "sugar": 4.4,
+      "fiber": 5.8
+    },
+    {
+      "name": "Jajko",
+      "kcl": 143.0,
+      "protein": 13.0,
+      "fat": 9.5,
+      "carbohydrates": 1.1,
+      "sugar": 1.1,
+      "fiber": 0.0
     }
   ]
 }

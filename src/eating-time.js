@@ -39,7 +39,7 @@ backButton.addEventListener('click', () => {
 })
 saveButton.addEventListener('click', () => {
     setEatingTimeToLocalStorage();
-    window.location.href = 'settings.html'
+    window.location.href = 'consuption.html'
 })
 rejectButton.addEventListener('click', () => {
     window.location.href = 'settings.html'
