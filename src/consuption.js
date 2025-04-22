@@ -62,11 +62,10 @@ function createMealElement(key, value, index) {
                 <p class="element_consuption_list_name_product">
                     ${element.name}
                 <p class="element_consuption_list2">
-                    ${element.kcl} kcal. /
-                    ${element.protein} b. /
-                    ${element.fat} t. /
-                    ${element.carbohydrates} w.
-               
+                   kcal. ${element.kcl}
+                   b. ${element.protein}
+                   t. ${element.fat}
+                   w. ${element.carbohydrates}
                  <button class="close_target_product_button" data-name="${element.name}">Usuń</button>
                  `;
         });
